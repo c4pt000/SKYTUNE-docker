@@ -1,5 +1,4 @@
-FROM c4pt/skytune-current
-
+FROM c4pt/skytune
 
 
 CMD /usr/bin/bash
