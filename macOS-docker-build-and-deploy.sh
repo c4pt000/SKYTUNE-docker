@@ -1,3 +1,11 @@
+
+# macos snd 
+# brew install pulseaudio
+# brew services start pulseaudio
+# brew install socat
+# brew cask install xquartz
+# pulseaudio --load=module-native-protocol-tcp --exit-idle-time=-1 --daemon
+
 ENV PULSE_SERVER=docker.for.mac.localhost
 
 socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" &
