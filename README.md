@@ -1,5 +1,6 @@
 # SKYTUNE-docker
 
+requires docker
 
 # ** WIP
 
