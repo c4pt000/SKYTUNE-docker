@@ -21,5 +21,5 @@ docker run -it -d --network="host" --restart="always" \
 -v /sys/fs/cgroup:/sys/fs/cgroup:ro \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 --entrypoint "/sbin/init" \
-c4pt/skytune
+c4pt/skytune-current
 docker exec -it skytunedocker /bin/bash
