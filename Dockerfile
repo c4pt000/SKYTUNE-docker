@@ -1,5 +1,4 @@
-FROM c4pt/skytune-docker-current
-
+FROM c4pt/skytune
 
 
 
