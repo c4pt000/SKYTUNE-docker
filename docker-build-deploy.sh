@@ -14,7 +14,7 @@
 
 #socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" &
 
-export XDG_RUNTIME_DIR=/run/user/%I && /usr/lib/systemd/systemd --user
+export XDG_RUNTIME_DIR=/run/user/%I && /usr/lib/systemd/systemd --user &
 
 
 docker run -it -d --network="host" --restart="always" --privileged=true \
