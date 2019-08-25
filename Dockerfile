@@ -1,4 +1,4 @@
-FROM c4pt/skytune
+FROM c4pt/skytune-current
 
 
 
