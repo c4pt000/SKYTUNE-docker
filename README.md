@@ -4,8 +4,11 @@
 # ** WIP
 
 ```git clone https://github.com/c4pt000/SKYTUNE-docker```
+<br>
 ```cd SKYTUNE-docker```
+<br>
 ```sh docker-build-deploy.sh```
+<br>
 
 browser will auto-load,
 <br>
