@@ -3,6 +3,52 @@
 
 # ** WIP
 
+```git clone https://github.com/c4pt000/SKYTUNE-docker```
+```cd SKYTUNE-docker```
+```sh docker-build-deploy.sh```
+
+browser will auto-load,
+<br>
+to mount a music folder to the docker instance add a mountable volume via -v
+<br>
+-v /home/user/Music:/music \
+<br>
+where "/home/user/Music" is your Music folder
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 docker run -ti --cap-add=SYS_ADMIN -e "container=fedora30" -v /sys/fs/cgroup:/sys/fs/cgroup fedora /usr/sbin/init 
 docker exec -it container-name-here /bin/bash
 
