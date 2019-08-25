@@ -9,3 +9,6 @@ docker run -it -d --network="host" --restart="always" \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 --entrypoint "/sbin/init" \
 c4pt/skytune-current 
+
+
+echo "docker exec -it <image-id> /bin/bash"
