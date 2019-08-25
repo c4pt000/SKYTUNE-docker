@@ -19,6 +19,17 @@ to mount a music folder to the docker instance add a mountable volume via -v
 <br>
 where "/home/user/Music" is your Music folder
 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ```systemctl status postgresql```
 <br>
@@ -31,17 +42,6 @@ project is dependent on PID 1 for systemd and pulseaudio on host and guest side 
 service via systemctl
 <br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<br>
-<br>
-<br>
 <br>
 <br>
 
