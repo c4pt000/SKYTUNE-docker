@@ -22,9 +22,11 @@ where "/home/user/Music" is your Music folder
 <br>
 <br>
 <br>
-project is dependent on PID 1 for systemd and postgresql running as a system service via ```systemctl status postgresql```
+project is dependent on PID 1 for systemd and pulseaudio on host and guest side , aside from postgresql running as a system 
 <br>
-```systemctl start postgresql```
+service via systemctl status postgresql
+<br>
+systemctl start postgresql
 <br>
 <br>
 <br>
