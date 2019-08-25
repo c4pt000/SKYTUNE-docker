@@ -1,7 +1,8 @@
 FROM c4pt/skytune-docker
 
-RUN chmod +x launch-server-production-NON-ssl 
+RUN yum install firefox -y
+RUN chmod +x /opt/SKYTUNE.online/launch-server-production-NON-ssl 
 
 
 CMD /usr/bin/bash
-#ENTRYPOINT ["launch-server-production-NON-ssl"]
+ENTRYPOINT ["/opt/SKYTUNE.online/launch-server-production-NON-ssl"]
