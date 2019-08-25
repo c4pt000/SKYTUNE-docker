@@ -30,14 +30,7 @@ to mount a music folder to the docker instance add a mountable volume via -v
 <br>
 where "/home/user/Music" is your Music folder
 
-<br>
-<br>
-<br>
-<br>
-<br>
 
-<br>
-<br>
 <br>
 <br>
 <br>
