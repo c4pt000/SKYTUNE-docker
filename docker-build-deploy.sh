@@ -18,7 +18,7 @@ export XDG_RUNTIME_DIR=/run/user/%I && /usr/lib/systemd/systemd --user &
 
 
 docker run -it -d --network="host" --restart="always" --privileged=true \
---name "skytunedocker" \
+--name "skytune" \
 --device /dev/snd \
 -e DISPLAY=$DISPLAY \
 --stop-signal=SIGRTMIN+3 --cap-add=SYS_ADMIN --security-opt=seccomp:unconfined \
@@ -27,4 +27,4 @@ docker run -it -d --network="host" --restart="always" --privileged=true \
 --entrypoint "/sbin/init" \
 c4pt/skytune-docker
 
-docker exec -it skytunedocker /bin/bash
+docker exec -it skytune /bin/bash
