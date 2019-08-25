@@ -14,7 +14,7 @@ browser will auto-load,
 <br>
 to mount a music folder to the docker instance add a mountable volume via -v
 <br>
--v /home/user/Music:/music \
+```-v /home/user/Music:/music \ ```
 <br>
 where "/home/user/Music" is your Music folder
 
