@@ -1,6 +1,8 @@
 # SKYTUNE-docker
 
 
+# ** WIP
+
 docker run -ti --cap-add=SYS_ADMIN -e "container=fedora30" -v /sys/fs/cgroup:/sys/fs/cgroup fedora /usr/sbin/init 
 docker exec -it container-name-here /bin/bash
 
