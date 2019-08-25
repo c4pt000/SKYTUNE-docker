@@ -8,7 +8,7 @@ docker run \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 -v /sys/fs/cgroup:/sys/fs/cgroup \
 -it \
---entrypoint "launch-server-production-NON-ssl" \
+--entrypoint "/opt/SKYTUNE.online/launch-http-NOSSL-firefox-local.sh" \
 skytune
 
 
