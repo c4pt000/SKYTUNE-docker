@@ -24,6 +24,7 @@ where "/home/user/Music" is your Music folder
 <br>
 project is dependent on PID 1 for systemd and pulseaudio on host and guest side , aside from postgresql running as a system 
 service via systemctl
+<br>
 ```systemctl status postgresql```
 <br>
 ```systemctl start postgresql```
