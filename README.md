@@ -11,7 +11,7 @@ vibesky, a SoundCloud clone, is a music social media app where users can discove
 
 
 
-requires docker
+# requires docker
 
 # ** WIP
 
