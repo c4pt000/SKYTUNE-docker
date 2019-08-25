@@ -1,4 +1,3 @@
-FROM c4pt/skytune-docker
-
+FROM c4pt/skytune
 
 CMD /usr/bin/bash
