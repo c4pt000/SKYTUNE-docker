@@ -10,9 +10,17 @@ vibesky, a SoundCloud clone, is a music social media app where users can discove
 # SKYTUNE-docker
 
 <p align="center"><img src="https://i.imgur.com/wepal9D.jpg" width="800"></p>
-
-
-
+<br>
+scrub jpg to replace or not
+<br>
+app/assests/javascript/bundle.js
+<br>
+                  _react2.default.createElement('img', { src: 'https://i1.sndcdn.com/artworks-000319271595-hhwrkq-t200x200.jpg' })
+<br>
+cover logo
+<br>
+grep -ri 'hp_image-6155d6b.jpg'
+<br>
 # requires docker
 
 # ** WIP
