@@ -1,5 +1,9 @@
 # No soundcloud here
 
+<p align="center"><img src="https://github.com/c4pt000/SKYTUNE-docker/blob/master/deposit.png" width="200"></p>
+
+
+
 * original source
 * https://github.com/Mpompili/vibesky
 
