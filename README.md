@@ -64,5 +64,6 @@ service via systemctl
 
 <br>
 <br>
+* to write changes
 
-
+docker commit <image_id>
