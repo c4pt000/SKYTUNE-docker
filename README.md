@@ -2,7 +2,6 @@
 
 * customizable
 
-<p align="center"><img src="https://github.com/c4pt000/SKYTUNE-docker/blob/master/deposit.png" width="200"></p>
 
 # * https://skytune.online/#/home
 
@@ -72,6 +71,3 @@ docker commit <image_id>
 
 
 
-https://www.binance.com/en/buy-sell-crypto/channel-list/buy/USD/BTC/10
-
-on average its $5.00 USD to transmit bitcoin on most websites dealing with bitcoin
